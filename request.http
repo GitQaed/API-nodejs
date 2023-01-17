@@ -1,0 +1,24 @@
+POST http://localhost:5353/users
+Content-Type: application/json
+
+{
+  "firstname": "yhu",
+  "lastname": "amin",
+  "email": "dodqdso@a.fr",
+  "password": "",
+  "repeated_password":""
+}
+
+###
+
+GET http://localhost:5353/users?orderBy=email&direction=asc&limit=3
+
+###
+
+POST http://localhost:5353/token
+Content-Type: application/json
+
+{
+  "email": "mail@user.com",
+  "password": "password"
+}
