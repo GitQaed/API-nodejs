@@ -2,16 +2,16 @@ POST http://localhost:5353/users
 Content-Type: application/json
 
 {
-  "firstname": "yhu",
-  "lastname": "amin",
-  "email": "dodqdso@a.fr",
-  "password": "",
-  "repeated_password":""
+  "firstname": "gilbert",
+  "lastname": "montagné",
+  "email": "g.montagne@api.fr",
+  "password": "password",
+  "repeated_password":"password"
 }
 
 ###
 
-GET http://localhost:5353/users?orderBy=email&direction=asc&limit=3
+GET http://localhost:5353/users?orderBy=email&direction=asc&limit=10
 
 ###
 
@@ -19,6 +19,6 @@ POST http://localhost:5353/token
 Content-Type: application/json
 
 {
-  "email": "mail@user.com",
+  "email": "g.montagne@api.fr",
   "password": "password"
 }
