@@ -1,1 +1,1 @@
-Simple Node.js api
+Simple Node.js user management api
